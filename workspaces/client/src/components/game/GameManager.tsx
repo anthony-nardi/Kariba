@@ -1,8 +1,8 @@
 import useSocketManager from "@hooks/useSocketManager";
 import { useEffect } from "react";
 import { Listener } from "@components/websocket/types";
-import { ServerEvents } from "@familyinc/shared/server/ServerEvents";
-import { ServerPayloads } from "@familyinc/shared/server/ServerPayloads";
+import { ServerEvents } from "@kariba/shared/server/ServerEvents";
+import { ServerPayloads } from "@kariba/shared/server/ServerPayloads";
 import { useRecoilState } from "recoil";
 import { CurrentLobbyState } from "@components/game/states";
 import Introduction from "@components/game/Introduction";

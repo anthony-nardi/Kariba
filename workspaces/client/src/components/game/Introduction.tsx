@@ -1,5 +1,5 @@
 import useSocketManager from "@hooks/useSocketManager";
-import { ClientEvents } from "@familyinc/shared/client/ClientEvents";
+import { ClientEvents } from "@kariba/shared/client/ClientEvents";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { emitEvent } from "@utils/analytics";

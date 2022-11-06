@@ -1,5 +1,5 @@
 {
-  "name": "@familyinc/client",
+  "name": "@kariba/client",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@familyinc/shared": "*",
+    "@kariba/shared": "*",
     "@mantine/core": "^4.2.5",
     "@mantine/hooks": "^4.2.5",
     "@mantine/next": "^4.2.5",

@@ -1,8 +1,8 @@
 import { SocketState } from '@components/websocket/SocketState';
 import { Listener } from '@components/websocket/types';
-import { ClientEvents } from '@familyinc/shared/client/ClientEvents';
-import { ServerEvents } from '@familyinc/shared/server/ServerEvents';
-import { ServerExceptionResponse } from '@familyinc/shared/server/types';
+import { ClientEvents } from '@kariba/shared/client/ClientEvents';
+import { ServerEvents } from '@kariba/shared/server/ServerEvents';
+import { ServerExceptionResponse } from '@kariba/shared/server/types';
 import { SetterOrUpdater } from 'recoil';
 import { io, Socket } from 'socket.io-client';
 import { showNotification } from '@mantine/notifications';

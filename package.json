@@ -1,5 +1,5 @@
 {
-  "name": "@anthonynardi/familyinc",
+  "name": "@anthonynardi/kariba",
   "private": true,
   "version": "1.0.0",
   "author": "Anthony Nardi",
@@ -10,10 +10,10 @@
     ]
   },
   "scripts": {
-    "start:dev:client": "yarn workspace @familyinc/client start:dev",
-    "start:dev:server": "yarn workspace @familyinc/server start:dev",
-    "start:prod:client": "yarn workspace @familyinc/client start:prod",
-    "start:prod:server": "yarn workspace @familyinc/server start:prod"
+    "start:dev:client": "yarn workspace @kariba/client start:dev",
+    "start:dev:server": "yarn workspace @kariba/server start:dev",
+    "start:prod:client": "yarn workspace @kariba/client start:prod",
+    "start:prod:server": "yarn workspace @kariba/server start:prod"
   },
   "engines": {
     "node": "16.17.x"

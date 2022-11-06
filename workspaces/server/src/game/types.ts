@@ -2,7 +2,6 @@ import { Socket } from 'socket.io';
 import { Lobby } from '@app/game/lobby/lobby';
 import { ServerEvents } from '@shared/server/ServerEvents';
 import { Color } from '@shared/server/ServerPayloads';
-import {ChipValues} from '@familyinc/shared/common/GameState'
 
 export type AuthenticatedSocket = Socket & {
   data: {
@@ -16,6 +15,8 @@ export type AuthenticatedSocket = Socket & {
   emit: <T>(ev: ServerEvents, data: T) => boolean;
 };
 
-export type ChipsHeld = Map<Socket['id'], Map<ChipValues, number>>
-export type DiamondsHeld = Map<Socket['id'], number>
+export type WateringHoleNumbers = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8'
+
 export type Scores = Map<Socket['id'], number>
+export type CardsHeld = Map<Socket['id'], string[]>
+export type WateringHole = Map<WateringHoleNumbers, string[]>
