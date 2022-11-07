@@ -6,5 +6,6 @@ export function getInitialDeck() {
       cards.push(`${i}`)
     }
   }
+  return cards
 }
 

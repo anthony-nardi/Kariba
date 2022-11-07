@@ -16,6 +16,7 @@ export type AuthenticatedSocket = Socket & {
 };
 
 export type WateringHoleNumbers = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8'
+export type CardValues = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8'
 
 export type Scores = Map<Socket['id'], number>
 export type CardsHeld = Map<Socket['id'], string[]>
